@@ -4,7 +4,10 @@
 
 .header {
     background-color: #d90000;
-    
+}
+
+.logo{
+    float: left;
 }
 
 .footer{
@@ -18,5 +21,12 @@
     margin-bottom: 0px;
 }
 
+.temporaire{
+    height: 800px;
+    width: 100%
+}
 
+.footerlistadress{
+    list-style-type: none;
+}
 
