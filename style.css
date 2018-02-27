@@ -1,7 +1,22 @@
 .container {
-
+    
 }
+
 .header {
     background-color: #d90000;
     
 }
+
+.footer{
+    text-align: center;
+    display: block;
+    position: relative;
+    color: white;
+    background-color: #343b46;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+
+
