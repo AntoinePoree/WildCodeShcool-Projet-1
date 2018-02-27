@@ -2,6 +2,11 @@
     
 }
 
+.header {
+    background-color: #fb0e0e;
+    ;
+}
+
 .footer{
     text-align: center;
     display: block;
@@ -12,3 +17,6 @@
     width: 100%;
     margin-bottom: 0px;
 }
+
+
+
