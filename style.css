@@ -1,13 +1,5 @@
-.container {
-    
-}
-
 .header {
     background-color: #d90000;
-}
-
-.logo{
-    float: left;
 }
 
 .footer{
@@ -20,13 +12,14 @@
     width: 100%;
     margin-bottom: 0px;
 }
+
+.nav_header{
+    margin-top: 5vh;
+}
+
 .nav_header>li {
     list-style-type: none;
     display:inline-block;
-   
-}
-.nav_header{
-    margin-top: 5vh;
 }
 
 .temporaire{
