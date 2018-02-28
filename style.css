@@ -1,16 +1,14 @@
-.header {
-    background-color: #d90000;
+.container-fluid{
+    padding: 0%;
 }
 
-.footer{
-    text-align: center;
-    display: block;
-    position: relative;
-    color: white;
-    background-color: #343b46;
-    padding: 10px;
+.header {
+    background-color: #d90000;
     width: 100%;
-    margin-bottom: 0px;
+}
+
+.img_logo{
+    max-width: 35vw;    
 }
 
 .nav_header{
@@ -20,6 +18,24 @@
 .nav_header>li {
     list-style-type: none;
     display:inline-block;
+}
+
+.world_map{
+    background-color: #D5E0E9;
+}
+
+.world_img{
+    max-width: 100%;
+    position: relative;
+}
+
+.
+
+.footer{
+    text-align: center;
+    color: white;
+    background-color: #343b46;
+    padding: 10px;
 }
 
 .footerlistadress{
