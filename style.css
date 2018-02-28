@@ -1,5 +1,6 @@
 .container-fluid{
     padding: 0%;
+    margin: 0px;
 }
 
 .header {
@@ -29,13 +30,12 @@
     position: relative;
 }
 
-.
-
 .footer{
     text-align: center;
     color: white;
     background-color: #343b46;
     padding: 10px;
+    width: 100%;
 }
 
 .footerlistadress{
