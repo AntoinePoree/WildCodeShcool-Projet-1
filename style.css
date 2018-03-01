@@ -17,7 +17,16 @@
 
 .nav_header{
     margin-top: 5vh;
+  
 
+}
+.nav_header>li:link{
+    text-decoration: overline;
+    text-decoration-color: white;
+}
+.nav_header>li:hover {
+    text-decoration-color: white;
+    text-decoration: overline;
 }
 
 .nav_header>li {
