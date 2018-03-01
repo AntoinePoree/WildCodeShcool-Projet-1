@@ -66,3 +66,8 @@
     margin: 0px;
 }
 
+.buttons-yellow{
+    background-color: #eed800 !important;
+    height: 10vh;
+    width: 90vw;
+}
