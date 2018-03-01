@@ -9,6 +9,10 @@
 .header {
     background-color: #d90000;
     width: 100%;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1;
 }
 
 .img_logo{
@@ -17,12 +21,13 @@
 
 .nav_header{
     margin-top: 5vh;
-  
+   
 
 }
 .nav_header>li:link{
     text-decoration: overline;
     text-decoration-color: white;
+    
 }
 .nav_header>li:hover {
     text-decoration-color: white;

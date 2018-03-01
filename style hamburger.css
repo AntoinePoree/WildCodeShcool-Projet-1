@@ -137,14 +137,7 @@ a:hover
 }
 /* Menu burger end */
 
-/* Disable hamburger -- mobile styles disabled and headerNav < 768px on desktop*/
- @media only screen and (max-width: 768px) {
-       #menu, #headerNav {
-         display: inline-block !important;
-         z-index: 9999;
-   }
- }
- 
+
  .mobile-nav-toggle-label {
      display: none !important;
  }
