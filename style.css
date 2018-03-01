@@ -17,13 +17,13 @@
 
 .nav_header{
     margin-top: 5vh;
-  
-
 }
+
 .nav_header>li:link{
     text-decoration: overline;
     text-decoration-color: white;
 }
+
 .nav_header>li:hover {
     text-decoration-color: white;
     text-decoration: overline;
@@ -60,7 +60,16 @@
     border:1px solid #f3f3f3;
     margin: 0px;
 }
+
+.img_salade{
+    background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/card_hp_01.jpg);
+    width: 100%;
+    height: 30vh;
+    padding: 0%;
+}
+
 .aside-2-img {
-    max-width: ;
-    max-height: ;
+    width: 100%;
+    height: 10%;
+    background: url()
 }
