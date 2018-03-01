@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style hamburger.css">
     <title>Home Page | Delivery Hero</title>
 </head>
 
@@ -17,40 +18,34 @@
     <div class="container-fluid">
         <header class="header">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 offset-lg-2">
                     <div class="logo">
                         <a href="https://www.deliveryhero.com/">
                             <img class="img_logo" src="https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/logo.png" alt="logo-delivery">
                         </a>
                     </div>
                 </div>
-
-                <div class="col-3 col-lg-8">
-                    <ul class="nav_header">
-                        <li>
-                            <a href="#">ABOUT</a>
-                        </li>
-                        <li>
-                            <a href="#">TEAM</a>
-                        </li>
-                        <li>
-                            <a href="#">CAREER</a>
-                        </li>
-                        <li>
-                            <a href="#">PRESS</a>
-                        </li>
-                        <li>
-                            <a href="#">INVESTOR RELATIONS</a>
-                        </li>
-                        <li>
-                            <a href="#">CONTACT</a>
-                        </li>
-                    </ul>
-
+            <nav role='navigation'>
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <ul class="menu" id="menu">
+                    <a href="#"><li>ABOUT</li></a>
+                    <a href="#"><li>TEAM</li></a>
+                    <a href="#"><li>CAREER</li></a>
+                    <a href="#"><li>PRESS</li></a>
+                    <a href="#"><li>INVESTOR RELATIONS</li></a>
+                    <a href="#"><li>CONTACT</li></a>
+                  </ul>
+                </div>
+            </nav>
                 </div>
             </div>
         </header>
-
+       
         <div class="row">
             <div class="col-12 world_map">
                 <img class="world_img" src="https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/map.png" alt="World Map">
@@ -171,6 +166,7 @@
             <section class="page_content">
 
                 <div class="row">
+<<<<<<< HEAD
                     <div class="col-12 delivery_hero">
                         <div class="row">
                             <div class="col-12 delivery_hero_img">
@@ -182,6 +178,41 @@
                             <article>
                                 <div class="delivery_hero_title">
                                     <h3>Delivery Hero</h3>
+=======
+                    <div class="col-8">
+                        <article>
+                            <header>
+                                <img class="image-salade" src="https://www.deliveryhero.com/wp-content/uploads/2015/12/card_hp_01.jpg?id=2275
+                         " alt="titel artikel" />
+                                <!-- Photo a chercher -->
+                                <h3>Delivery Hero</h3>
+                                <!-- 1er article -->
+                            </header>
+                            <p>
+                                Delivery Hero is the leading global online food ordering and delivery marketplace with number one market positions in terms
+                                of restaurants, active users, gross merchandise value or website traffic, in more countries
+                                than any of its competitors. We are present in more than 40 countries around 5 continents.
+                                We have strong local teams, who are familiar with all the local pelicularities. Food is not
+                                just any product, it is rooted in the culture of every country. In this sense you might see
+                                us as the ‘United Nations of Food Delivery’. What makes us special? It’s the way we combine
+                                food and tech. Our local teams are working closely together with our central teams that are
+                                on the forefront of innovation, e.g. in logistics, in exploring new kitchen concepts, in
+                                finding smart way of using data. Did you know, for instance, that our data analysis is enabling
+                                restaurants all around the world to improve their service significantly for the benefit of
+                                our customers? Currently we have 6,000+ employees globally (plus thousands of employed riders),
+                                with 1,000+ staff members working in our Berlin headquarters – all with the mission to create
+                                an amazing takeaway experience.</p>
+                             <button class="buttons-yellow" type="button" class="btn btn-primary btn-lg btn-block">Read more</button>
+                        </article>
+                        <article>
+                            <!-- 2nd article -->
+                            <div class="row">
+                                <div class="col-1 col-lg-6">
+                                    <aside class="aside-2-img">
+                                        <img src="https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/ordering-steps.png" alt="Order online">
+                                        <!-- image a chercher -->
+                                    </aside>
+>>>>>>> Header
                                 </div>
 
                                 <p class="delivery_hero_text">Delivery Hero is the leading global online food ordering and delivery marketplace with number
@@ -221,6 +252,7 @@
                                 <div class="order_online_title">
                                     <h3>Delivery Hero: much more than just a platform</h3>
                                 </div>
+<<<<<<< HEAD
                                 <p class="order_online_text">Delivery Hero is the parent company of many popular brands in the food delivery space all
                                     around the world. Our data-driven insights allow restaurants to improve their service
                                     significantly. The good folks at Foodora are industry leading specialists in the field
@@ -255,6 +287,22 @@
                             <article>
                                 <div class="people_work_title">
                                     <h3>Work at Delivery Hero</h3>
+=======
+                        </article>
+                        <article class="aside-2-text">
+                            <h3>Delivery Hero: much more than just a platform</h3>
+                            <p>bla bla</p>
+                            <button class="buttons-yellow" type="button" class="btn btn-primary btn-lg btn-block">Read more</button>
+                        </article>
+                        <!-- fin 2nd -->
+                        <article>
+                            <aside>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <img class="image-brand" src="https://www.deliveryhero.com/wp-content/uploads/2015/12/house-of-brands-mobile.png
+                                          " alt="Brand">
+                                    </div>
+>>>>>>> Header
                                 </div>
                                 <p class="people_work_text">Delivery Hero takes pride in being hospitable to all of its more than 6,000 employees. The
                                     company provides assistance with work permits, wherever you apply. We can also offer
@@ -277,8 +325,29 @@
                                     <div class="col-12 people_work_button">
                                         <a href="#">ALL POSITIONS</a>
                                     </div>
+<<<<<<< HEAD
                                     <div class="col-12 people_work_button">
                                         <a href="#">CAREER WEBSITE</a>
+=======
+                                </div>
+                            </aside>
+                            <aside>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3 class="work-at">Work at Delivery Hero</h3>
+                                        <p>bla bla bla for everything</p>
+                                        <h3 class="work at">
+                                            Interested in working for your dream company?
+                                        </h3>
+                                        <p>Take a look at our job offers</p>
+
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <button class="buttons-yellow" type="button" class="btn btn-primary btn-lg btn-block">ALL POSITIONS</button>
+                                                <button class="buttons-yellow" type="button" class="btn btn-primary btn-lg btn-block">CAREER WEBSITE</button>
+                                            </div>
+                                        </div>
+>>>>>>> Header
                                     </div>
                                 </div>
                             </article>
@@ -309,7 +378,7 @@
                                 </p>
                                 <div class="row">
                                     <div class="col-12">
-                                        <a href="#">READ MORE</a>
+                                        <button class="buttons-yellow" type="button" class="btn btn-primary btn-lg btn-block">Read more</button>
                                     </div>
                                 </div>
                             </article>
