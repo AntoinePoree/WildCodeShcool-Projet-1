@@ -41,9 +41,9 @@ a:hover
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
+
+ /* Just a quick hamburger */
+ 
 #menuToggle span
 {
   display: block;
@@ -71,10 +71,10 @@ a:hover
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+
+ /* Transform all the slices of hamburger into a crossmark. */
+ 
+ 
 #menuToggle input:checked ~ span
 {
   opacity: 1;
@@ -136,3 +136,26 @@ a:hover
   opacity: 1;
 }
 /* Menu burger end */
+
+/* Disable hamburger -- mobile styles disabled and headerNav < 768px on desktop*/
+ @media only screen and (max-width: 768px) {
+       #menu, #headerNav {
+         display: inline-block !important;
+         z-index: 9999;
+   }
+ }
+ 
+ .mobile-nav-toggle-label {
+     display: none !important;
+ }
+
+ 
+ /*Hide Hamburger, Show Desktop*/
+ .mobile-nav-toggle-label {
+    display: none !important;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  #header #headerNav {
+  display: inline !important;}
+  }
