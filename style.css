@@ -1,6 +1,8 @@
 .container-fluid{
     padding: 0%;
     margin: 0px;
+    position: relative;
+
 }
 
 .header {
@@ -41,4 +43,9 @@
 .footerlistadress{
     list-style-type: none;
 }
+.creating {
+    background-color: #f3f3f3;
+    border:1px solid #f3f3f3;
+    margin: 0px;
 
+}
