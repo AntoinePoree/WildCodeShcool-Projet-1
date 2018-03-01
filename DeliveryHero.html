@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style hamburger.css">
     <title>Home Page | Delivery Hero</title>
 </head>
 
@@ -17,36 +18,30 @@
     <div class="container-fluid">
         <header class="header">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 offset-lg-2">
                     <div class="logo">
                         <a href="https://www.deliveryhero.com/">
                             <img class="img_logo" src="https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/logo.png" alt="logo-delivery">
                         </a>
                     </div>
                 </div>
-
-                <div class="col-3 col-lg-8">
-                    <ul class="nav_header">
-                        <li>
-                            <a href="#">ABOUT</a>
-                        </li>
-                        <li>
-                            <a href="#">TEAM</a>
-                        </li>
-                        <li>
-                            <a href="#">CAREER</a>
-                        </li>
-                        <li>
-                            <a href="#">PRESS</a>
-                        </li>
-                        <li>
-                            <a href="#">INVESTOR RELATIONS</a>
-                        </li>
-                        <li>
-                            <a href="#">CONTACT</a>
-                        </li>
-                    </ul>
-
+            <nav role='navigation'>
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <ul id="menu">
+                    <a href="#"><li>ABOUT</li></a>
+                    <a href="#"><li>TEAM</li></a>
+                    <a href="#"><li>CAREER</li></a>
+                    <a href="#"><li>PRESS</li></a>
+                    <a href="#"><li>INVESTOR RELATIONS</li></a>
+                    <a href="#"><li>CONTACT</li></a>
+                  </ul>
+                </div>
+            </nav>
                 </div>
             </div>
         </header>
