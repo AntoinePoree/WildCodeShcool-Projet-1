@@ -4,7 +4,6 @@
     position: relative;
     max-width: 100vw;
     max-height: 100vh;
-
 }
 
 .header {
@@ -46,9 +45,9 @@
 .footerlistadress{
     list-style-type: none;
 }
+
 .creating {
     background-color: #f3f3f3;
     border:1px solid #f3f3f3;
     margin: 0px;
-
 }
