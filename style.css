@@ -5,6 +5,12 @@
     src: url("font/icons.woff") format("woff");
 }
 
+@font-face{
+    font-family: "Social-Icon";
+    src: url("font/social-icons.woff") format("woff");
+}
+
+
 .container-fluid{
     padding: 0%;
     margin: 0px;
@@ -54,17 +60,7 @@
     position: relative;
 }
 
-.footer{
-    text-align: center;
-    color: white;
-    background-color: #343b46;
-    padding: 10px;
-    width: 100%;
-}
 
-.footerlistadress{
-    list-style-type: none;
-}
 
 .creating {
     background-color: #f3f3f3;
@@ -129,14 +125,15 @@
 
 /* FOOTER STYLE */
 
-.footer_adress{
-    padding-top: 2vh;
+.footer{
+    color: white;
+    background-color: #343b46;
+    padding: 10px;
+    width: 100%;
 }
 
-.footeradress{
+.footer_adress{
     padding-top: 2vh;
-    padding-left: 0;
-    text-align: left;
 }
 
 .footer_title{
@@ -145,5 +142,34 @@
     font-weight: bold;
 }
 
+.footeradress{
+    padding-top: 1vh;
+    padding-left: 0;
+    text-align: left;
+}
+
+.footerlistadress{
+    list-style-type: none;
+    padding-left: 0%;
+}
+
 .footer_icon_contact{
+    position: relative;
     font-family: Icon;
+    font-size: 1.3em;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.footer_contact_list{
+    display: inline-block;
+    line-height: normal;
+}
+
+.footersocial{
+    text-align: left;
+    font-family: "Social-Icon";
+    font-size: 2.5em;
+    line-height: normal;
+}
+
