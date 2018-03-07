@@ -3,7 +3,7 @@ a
 {
   text-decoration: none;
   color: white;
-  
+
   transition: color 0.3s ease;
 }
 
@@ -30,7 +30,7 @@ a:hover
 {
   display: block;
   width: 100vw;
-  height: 100vh;
+  height: 5vh;
   position: absolute;
   
   cursor: pointer;
@@ -140,16 +140,16 @@ a:hover
 
 
  .mobile-nav-toggle-label {
-     display: none !important;
+     display: none ;
  }
 
  
  /*Hide Hamburger, Show Desktop*/
  .mobile-nav-toggle-label {
-    display: none !important;
+    display: none ;
   }
   
   @media only screen and (max-width: 768px) {
   #header #headerNav {
-  display: inline !important;}
+  display: inline ;
   }

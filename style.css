@@ -70,6 +70,9 @@
     background-color: #f3f3f3;
     border:1px solid #f3f3f3;
     margin: 0px;
+    margin-left: 10px;
+    position: relative;
+    width: 100%;
 }
 
 .delivery_hero_img{
@@ -113,8 +116,12 @@
 
 .buttons-yellow{
     background-color: #eed800 !important;
-    height: 10vh;
-    width: 90vw;
+    width: 50vw;
+    max-width: 100vw;
+    height: 8vh;
+    max-height: 8vh;
+    margin: 0 auto;
+    display: block;
 }
 .world_img {
     background-image: url(https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/map.png);
@@ -125,8 +132,21 @@
     background-color: #D5E0E9;
 }
 
-
-
+/* button header */
+#btn-1 {
+    width: 100%;
+    height: 5vh;
+    max-height: 5vh;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#btn-2 {
+    width: 100%;
+    height: 5vh;
+    max-height: 5vh;
+    margin-top: 5px;
+    margin-right: 10px;
+}
 /* FOOTER STYLE */
 
 .footer_adress{
