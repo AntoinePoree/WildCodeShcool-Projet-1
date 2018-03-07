@@ -135,7 +135,7 @@
 }
 
 .buttons-yellow {
-  background-color: #eed800 !important;
+  background-color: rgb(255, 199, 19);
   height: 10vh;
   width: 90vw;
 }
