@@ -93,6 +93,20 @@ article {
   margin: 0px;
 }
 
+.delivery_hero_title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.order_online_title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.order_online_text {
+  margin-bottom: 50px;
+}
+
 @media (min-width: 768px) {
   .delivery_hero_article {
     height: 838px;
@@ -113,6 +127,7 @@ article {
     background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/card_hp_01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: -150px;
     width: 100%;
     height: 838px;
     padding: 0%;
