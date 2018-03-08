@@ -10,6 +10,10 @@
   src: url("font/social-icons.woff") format("woff");
 }
 
+body {
+  background: #f5f5f6;
+}
+
 .container-fluid {
   padding: 0%;
   margin: 0px;
@@ -77,6 +81,12 @@ article {
   margin: 0px 15px;
 }
 
+@media (min-width: 768px) {
+  .article_full {
+    margin: 20px 0px;
+  }
+}
+
 .creating {
   background-color: #f3f3f3;
   border: 1px solid #f3f3f3;
@@ -86,6 +96,7 @@ article {
 @media (min-width: 768px) {
   .delivery_hero_article {
     height: 838px;
+    background: white;
   }
 }
 
@@ -103,7 +114,7 @@ article {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 60vh;
+    height: 838px;
     padding: 0%;
   }
 }
@@ -113,8 +124,15 @@ article {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
-  height: 496px;
+  height: 535px;
   padding: 0%;
+}
+
+@media (min-width: 768px) {
+  .order_online_article {
+    height: 535px;
+    background: white;
+  }
 }
 
 .image_brand_img {
@@ -133,6 +151,28 @@ article {
     background-repeat: no-repeat;
     width: 100%;
     height: 150vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .people_work_title {
+    margin-top: -180px;
+    margin-bottom: 100px;
+  }
+  .h3_work_at {
+    background: #45233e;
+    margin-bottom: 10px;
+    width: 18%;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding: 5px;
+  }
+  .h3_delivery_hero {
+    background: #45233e;
+    width: 31%;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding: 5px;
   }
 }
 
@@ -162,6 +202,13 @@ article {
   background-color: #45233e;
 }
 
+@media (min-width: 768px) {
+  .pink_bike_article {
+    height: 740px;
+    background: white;
+  }
+}
+
 .pink_bike_img {
   background-image: url(https://www.deliveryhero.com/wp-content/uploads/2018/02/foodora_riders_city.jpg);
   background-size: cover;
@@ -179,7 +226,7 @@ article {
     background-repeat: no-repeat;
     background-position: 1px;
     width: 100%;
-    height: 426px;
+    height: 740px;
     padding: 0%;
   }
 }
