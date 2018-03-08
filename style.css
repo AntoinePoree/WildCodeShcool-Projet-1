@@ -83,6 +83,12 @@ article {
   margin: 0px;
 }
 
+@media (min-width: 768px) {
+  .delivery_hero_article {
+    height: 838px;
+  }
+}
+
 .delivery_hero_img {
   background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/card_hp_01.jpg);
   background-repeat: no-repeat;
@@ -184,6 +190,16 @@ article {
   width: 90vw;
   border-radius: 8px;
 }
+
+@media (min-width: 768px) {
+  .buttons-yellow {
+    background-color: rgb(255, 199, 19);
+    height: 5vh;
+    width: 10vw;
+    border-radius: 5px;
+  }
+}
+
 .world_img {
   background-image: url(https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/map.png);
   background-size: 100% 100%;
