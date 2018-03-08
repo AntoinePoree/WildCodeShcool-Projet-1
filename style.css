@@ -217,6 +217,15 @@ article {
   background-color: #45233e;
 }
 
+.div_button {
+  text-align: center;
+}
+
+.pink_bike_title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
 @media (min-width: 768px) {
   .pink_bike_article {
     height: 740px;
