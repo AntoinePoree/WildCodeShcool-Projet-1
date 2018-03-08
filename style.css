@@ -275,11 +275,21 @@ article {
   background-image: url(https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/map.png);
   background-size: 100% 100%;
   width: 100%;
-  height: 200px;
+  height: 800px;
   padding: 0;
   background-color: #d5e0e9;
 }
 
+@media (max-width: 768px) {
+  .world_img {
+    background-image: url(https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/map.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    background-color: #d5e0e9;
+  }
+}
 /* FOOTER STYLE */
 
 .footer {
