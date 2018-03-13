@@ -1,169 +1,396 @@
 /* DECLARATION DES FONTS */
 
 @font-face {
-    font-family: "Icon";
-    src: url("font/icons.woff") format("woff");
+  font-family: "Icon";
+  src: url("font/icons.woff") format("woff");
 }
 
-.container-fluid{
-    padding: 0%;
-    margin: 0px;
-    position: relative;
-    max-width: 100vw;
-    max-height: 100vh;
+@font-face {
+  font-family: "Social-Icon";
+  src: url("font/social-icons.woff") format("woff");
+}
+
+body {
+  background: #f5f5f6;
+}
+
+.container-fluid {
+  padding: 0%;
+  margin: 0px;
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.container {
+  padding: 0%;
+}
+
+.col-12 {
+  padding-bottom: 10px;
+}
+
+[class*=("title")] {
+  font-size: 1em;
+  text-align: left;
+  font-weight: bold;
 }
 
 .header {
-    background-color: #d90000;
-    width: 100%;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    z-index: 1;
+  background-color: #d90000;
+  width: 100%;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
 }
 
-.img_logo{
-    max-width: 35vw;    
+.img_logo {
+  max-width: 35vw;
 }
 
-.nav_header{
-    margin-top: 5vh;
+.nav_header {
+  margin-top: 5vh;
 }
 
-.nav_header>li:link{
-    text-decoration: overline;
-    text-decoration-color: white;   
+.nav_header > li:link {
+  text-decoration: overline;
+  text-decoration-color: white;
 }
 
-.nav_header>li:hover {
-    text-decoration-color: white;
-    text-decoration: overline;
+.nav_header > li:hover {
+  text-decoration-color: white;
+  text-decoration: overline;
 }
 
-.nav_header>li {
-    list-style-type: none;
-    display:inline-block;
+.nav_header > li {
+  list-style-type: none;
+  display: inline-block;
 }
 
-.world_map{
-    background-color: #D5E0E9;
+.world_map {
+  background-color: #d5e0e9;
 }
 
-.world_img{
-    max-width: 100%;
-    position: relative;
+.world_img {
+  max-width: 100%;
+  position: relative;
 }
 
-.footer{
-    text-align: center;
-    color: white;
-    background-color: #343b46;
-    padding: 10px;
-    width: 100%;
+article {
+  margin: 0px 15px;
 }
 
-.footerlistadress{
-    list-style-type: none;
+@media (min-width: 768px) {
+  .article_full {
+    margin: 20px 0px;
+  }
 }
 
 .creating {
-    background-color: #f3f3f3;
-    border:1px solid #f3f3f3;
-    margin: 0px;
-    margin-left: 10px;
-    position: relative;
-    width: 100%;
+  text-align: center;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  margin: 0px;
+  margin-left: 10px;
+  position: relative;
+  width: 100%;
 }
 
-.delivery_hero_img{
+.delivery_hero_title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.order_online_title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.order_online_text {
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .delivery_hero_article {
+    height: 838px;
+    background: white;
+  }
+}
+
+.delivery_hero_img {
+  background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/card_hp_01.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30vh;
+  padding: 0%;
+}
+
+@media (min-width: 768px) {
+  .delivery_hero_img {
     background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/card_hp_01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -150px;
     width: 100%;
-    height: 30vh;
+    height: 838px;
     padding: 0%;
+  }
 }
 
-.order_online_img{
-    background-image: url(https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/ordering-steps.png);
-    background-size: contain;
-    width: 100%;
-    height: 496px;
-    padding: 0%;
+.order_online_img {
+  background-image: url(https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/ordering-steps.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 535px;
+  padding: 0%;
 }
 
-.image_brand_img{
+@media (min-width: 768px) {
+  .order_online_article {
+    height: 535px;
+    background: white;
+  }
+}
+
+.image_brand_img {
+  background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/house-of-brands-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 648px;
+  padding: 0%;
+}
+
+@media (min-width: 768px) {
+  .image_brand_img {
     background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/house-of-brands-mobile.png);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 648px;
-    padding: 0%;
+    height: 150vh;
+  }
 }
 
-.people_work_img{
+@media (min-width: 768px) {
+  .people_work_title {
+    margin-top: -180px;
+    margin-bottom: 100px;
+  }
+  .h3_work_at {
+    background: #45233e;
+    margin-bottom: 10px;
+    width: 18%;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding: 5px;
+  }
+  .h3_delivery_hero {
+    background: #45233e;
+    width: 31%;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding: 5px;
+  }
+}
+
+.people_work_img {
+  background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/homepage-photo-work-at-dh-e1508426587859.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #45233e;
+  width: 100%;
+  height: 242px;
+  padding: 0%;
+}
+
+@media (min-width: 768px) {
+  .people_work_img {
     background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/homepage-photo-work-at-dh-e1508426587859.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #45233e;
     width: 100%;
-    height: 242px;
-    padding: 0%;
+    height: 400px;
+  }
 }
 
-.pink_bike_img{
+.people_work_article {
+  color: white;
+  background-color: #45233e;
+}
+
+.div_button {
+  text-align: center;
+}
+
+.pink_bike_title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .pink_bike_article {
+    height: 740px;
+    background: white;
+  }
+}
+
+.pink_bike_img {
+  background-image: url(https://www.deliveryhero.com/wp-content/uploads/2018/02/foodora_riders_city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 1px;
+  width: 100%;
+  height: 242px;
+  padding: 0%;
+}
+
+@media (min-width: 768px) {
+  .pink_bike_img {
     background-image: url(https://www.deliveryhero.com/wp-content/uploads/2018/02/foodora_riders_city.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 1px;
     width: 100%;
-    height: 242px;
+    height: 740px;
     padding: 0%;
+  }
 }
 
-.buttons-yellow{
-    background-color: #eed800 !important;
-    width: 50vw;
-    max-width: 100vw;
-    height: 8vh;
-    max-height: 8vh;
-    margin: 0 auto;
-    display: block;
+.buttons-yellow {
+  background-color: rgb(255, 199, 19);
+  height: 10vh;
+  width: 90vw;
+  border-radius: 8px;
 }
+
+@media (min-width: 768px) {
+  .buttons-yellow {
+    background-color: rgb(255, 199, 19);
+    height: 5vh;
+    width: 10vw;
+    border-radius: 5px;
+  }
+}
+
 .world_img {
+  background-image: url(https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/map.png);
+  background-size: 100% 100%;
+  margin-top: 30px;
+  width: 100%;
+  height: 800px;
+  padding: 0;
+  background-color: #d5e0e9;
+}
+
+@media (max-width: 768px) {
+  .world_img {
     background-image: url(https://www.deliveryhero.com/wp-content/themes/deliveryhero_corporate/img/map.png);
-    background-size: cover;
+    background-size: 100% 100%;
+    margin-top: 30px;
     width: 100%;
     height: 200px;
     padding: 0;
-    background-color: #D5E0E9;
-}
-
-/* button header */
-#btn-1 {
-    width: 100%;
-    height: 5vh;
-    max-height: 5vh;
-    margin-top: 5px;
-    margin-left: 10px;
-}
-#btn-2 {
-    width: 100%;
-    height: 5vh;
-    max-height: 5vh;
-    margin-top: 5px;
-    margin-right: 10px;
+    background-color: #d5e0e9;
+  }
 }
 /* FOOTER STYLE */
 
-.footer_adress{
-    padding-top: 2vh;
+.footer {
+  color: white;
+  background-color: #343b46;
+  padding: 10px;
+  width: 100%;
 }
 
-.footeradress{
-    padding-top: 2vh;
-    padding-left: 0;
-    text-align: left;
+.footer_adress {
+  padding-top: 2vh;
 }
 
-.footer_title{
-    font-size: 1em;
-    text-align: left;
-    font-weight: bold;
+.footer_title {
+  font-size: 1em;
+  text-align: left;
+  font-weight: bold;
+}
+/* button header */
+#btn-1 {
+  width: 100%;
+  height: 5vh;
+  max-height: 5vh;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+#btn-2 {
+  width: 100%;
+  height: 5vh;
+  max-height: 5vh;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+/* FOOTER STYLE */
+
+.footeradress {
+  padding-top: 1vh;
+  padding-left: 0;
+  text-align: left;
+  padding-bottom: 5vh;
 }
 
-.footer_icon_contact{
-    font-family: Icon;
+.footerlistadress {
+  list-style-type: none;
+  padding-left: 0%;
+}
+
+.footer_icon_contact {
+  position: relative;
+  font-family: Icon;
+  font-size: 1.3em;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.footer_contact_list {
+  display: inline-block;
+  line-height: normal;
+}
+
+.footersocial {
+  text-align: left;
+  font-family: "Social-Icon";
+  font-size: 3em;
+  line-height: normal;
+  padding-bottom: 60px;
+}
+
+.footer_social > h3 {
+  padding-bottom: 2vh;
+}
+
+.footer_disclaim {
+  padding-bottom: 5vh;
+}
+
+.footer_list_disclaim {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0px;
+}
+
+.footer_list {
+  padding-bottom: 1vh;
+}
+
+.footer_copyright {
+  padding-top: 3vh;
+  color: grey;
+}
+
+@media (min-width: 768px) {
+  .footer_list {
+    display: inline;
+    float: left;
+    padding-left: 10px;
+  }
+}
