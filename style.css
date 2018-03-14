@@ -390,7 +390,7 @@ article {
 @media (min-width: 768px) {
   .footer_list {
     display: inline;
-    float: left;
+    /* float: left; */
     padding-left: 10px;
   }
 }
