@@ -390,7 +390,22 @@ article {
 @media (min-width: 768px) {
   .footer_list {
     display: inline;
-    float: left;
+ 
     padding-left: 10px;
+  }
+}
+
+.img_logo{
+  display: none;
+}
+
+@media only screen and (max-width: 768px){ /*some value*/
+  .img-logo-lg{
+    display: none;
+  }
+
+  .img_logo{
+    display: block;
+  
   }
 }
