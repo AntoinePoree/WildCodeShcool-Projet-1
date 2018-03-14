@@ -36,6 +36,10 @@ body {
   padding-bottom: 10px;
 }
 
+.navbar {
+  position: sticky;
+}
+
 .col12_navbar {
   padding-bottom: 0px;
 }
@@ -79,6 +83,10 @@ a {
   margin-top: 5vh;
 }
 
+.p_navbar {
+  height: 100%;
+  width: 100%;
+}
 /* .nav_header > li:link {
   text-decoration: overline;
   text-decoration-color: white;
