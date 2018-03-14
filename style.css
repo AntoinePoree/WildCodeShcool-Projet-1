@@ -36,6 +36,10 @@ body {
   padding-bottom: 10px;
 }
 
+.col12_navbar {
+  padding-bottom: 0px;
+}
+
 .nav-item {
   border-top: 2px solid #d90000;
 }
@@ -113,8 +117,7 @@ article {
   text-align: center;
   background-color: #f3f3f3;
   border: 1px solid #f3f3f3;
-  margin: 0px;
-  margin-left: 10px;
+  margin-top: 15px;
   position: relative;
   width: 100%;
 }
@@ -197,11 +200,11 @@ article {
 
 @media (min-width: 768px) {
   .image_brand_img {
-    background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/house-of-brands-mobile.png);
+    background-image: url(https://www.deliveryhero.com/wp-content/uploads/2015/12/house-of-brands.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 150vh;
+    /* height: 150vh; */
   }
 }
 
