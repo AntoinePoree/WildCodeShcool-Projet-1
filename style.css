@@ -508,16 +508,18 @@ article {
     display: block;
   }
 }
+@media only screen and (min-width:576px){
 .word-scroll {
   display: inline-block;
-  overflow: scroll;
+  overflow-x: auto;
   height: 50em;
 }
 .word-scroll-order {
-  overflow: scroll;
+  overflow-x: auto;
   height: 30em;
 }
 .word-scroll-pink {
-  overflow: scroll;
+  overflow-x: auto;
   height: 45em;
+}
 }
