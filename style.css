@@ -216,11 +216,17 @@ article {
   }
 }
 
+.people_work_title {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
 @media (min-width: 768px) {
   .people_work_title {
     margin-top: -180px;
     margin-bottom: 100px;
   }
+
   .h3_work_at {
     background: #45233e;
     margin-bottom: 10px;
