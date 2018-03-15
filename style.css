@@ -508,3 +508,16 @@ article {
     display: block;
   }
 }
+.word-scroll {
+  display: inline-block;
+  overflow: scroll;
+  height: 50em;
+}
+.word-scroll-order {
+  overflow: scroll;
+  height: 30em;
+}
+.word-scroll-pink {
+  overflow: scroll;
+  height: 45em;
+}
