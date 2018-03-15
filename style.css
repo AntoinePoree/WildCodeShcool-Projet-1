@@ -107,6 +107,7 @@ a {
 .world_img {
   max-width: 100%;
   position: relative;
+  margin-bottom: 35px;
 }
 
 .col_nav_brand_country {
