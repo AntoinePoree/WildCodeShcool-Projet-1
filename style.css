@@ -508,18 +508,19 @@ article {
     display: block;
   }
 }
-@media only screen and (min-width:576px){
-.word-scroll {
-  display: inline-block;
-  overflow-x: auto;
-  height: 50em;
-}
-.word-scroll-order {
-  overflow-x: auto;
-  height: 30em;
-}
-.word-scroll-pink {
-  overflow-x: auto;
-  height: 45em;
-}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .word-scroll {
+    display: inline-block;
+    overflow-x: auto;
+    height: 50em;
+  }
+  .word-scroll-order {
+    overflow-x: auto;
+    height: 30em;
+  }
+  .word-scroll-pink {
+    overflow-x: auto;
+    height: 45em;
+  }
 }
