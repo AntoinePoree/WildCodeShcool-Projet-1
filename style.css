@@ -86,7 +86,9 @@ a {
 .p_navbar {
   height: 100%;
   width: 100%;
+  margin-bottom: 0%;
 }
+
 /* .nav_header > li:link {
   text-decoration: overline;
   text-decoration-color: white;
@@ -109,6 +111,10 @@ a {
 .world_img {
   max-width: 100%;
   position: relative;
+}
+
+.col_nav_brand_country {
+  padding: 0%;
 }
 
 article {
@@ -378,17 +384,19 @@ article {
 /* button header */
 #btn-1 {
   width: 100%;
-  height: 5vh;
-  max-height: 5vh;
+  height: 100%;
+  border-radius: 0px;
+  /* max-height: 5vh;
   margin-top: 5px;
-  margin-left: 10px;
+  margin-left: 10px; */
 }
 #btn-2 {
   width: 100%;
-  height: 5vh;
-  max-height: 5vh;
+  height: 100%;
+  border-radius: 0px;
+  /* max-height: 5vh;
   margin-top: 5px;
-  margin-right: 10px;
+  margin-left: 10px; */
 }
 /* FOOTER STYLE */
 
