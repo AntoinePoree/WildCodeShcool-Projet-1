@@ -44,18 +44,13 @@ body {
   padding-bottom: 0px;
 }
 
-.nav-item {
-  border-top: 2px solid #d90000;
-}
+
 
 .nav-item > a {
   font-weight: bold;
+  text-align: center;
 }
 
-.nav-item:hover {
-  border-top: 2px solid white;
-  transition-duration: 0.5s;
-}
 
 a {
   color: white !important;
@@ -115,10 +110,28 @@ article {
   margin: 0px 15px;
 }
 
+.nav-item {
+  text-decoration: none;
+}
+.nav-item:hover {
+text-decoration: none;
+}
+@media (min-width: 990px){
+  .nav-item {
+    border-top: 2px solid #d90000;
+  }
+  .nav-item:hover {
+    border-top: 2px solid white;
+    transition-duration: 0.5s;
+  }
+  
+}
 @media (min-width: 768px) {
   .article_full {
     margin: 20px 0px;
   }
+  
+
 }
 
 .creating {
